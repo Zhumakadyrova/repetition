@@ -1,0 +1,18 @@
+.Example {
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 0 green;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+max-width: 100px;
+justify-content: center;
+text-align: center;
+
+margin: 10px;
+}
+.Example > * {
+  flex: 0 0 100%;
+}
+.Example img {
+  height: 100px;
+}
